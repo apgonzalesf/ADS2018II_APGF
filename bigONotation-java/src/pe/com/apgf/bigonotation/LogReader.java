@@ -6,7 +6,8 @@ import java.util.List;
 
 public class LogReader implements Iterable<LogLine> {
 	int counter = 0;
-	List<LogLine> temporal = new ArrayList<LogLine>(); 
+	List<LogLine> temporal = new ArrayList<LogLine>();
+
 	public LogReader() {
 		int n = 100000;
 		int uniqueIPs = 90001;
